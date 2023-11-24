@@ -84,6 +84,8 @@ GEM
       rouge (>= 1.0.0)
     bigdecimal (3.1.4)
     bindex (0.8.1)
+    binding_of_caller (1.0.0)
+      debug_inspector (>= 0.0.1)
     bootsnap (1.17.0)
       msgpack (~> 1.2)
     builder (3.2.4)
@@ -106,6 +108,7 @@ GEM
     debug (1.8.0)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
+    debug_inspector (1.1.0)
     drb (2.2.0)
       ruby2_keywords
     em-websocket (0.5.3)
@@ -289,6 +292,7 @@ PLATFORMS
 
 DEPENDENCIES
   better_errors (~> 2.9, >= 2.9.1)
+  binding_of_caller
   bootsnap
   bulma-rails (~> 0.9.4)
   capybara
@@ -297,6 +301,7 @@ DEPENDENCIES
   guard-livereload (~> 2.5, >= 2.5.2)
   importmap-rails
   jbuilder
+  method_source (~> 1.0)
   puma (>= 5.0)
   rails (~> 7.1.2)
   selenium-webdriver

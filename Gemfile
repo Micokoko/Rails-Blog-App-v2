@@ -45,6 +45,14 @@ gem 'guard', '~> 2.18', '>= 2.18.1'
 
 gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 
+gem "binding_of_caller"
+
+gem 'method_source', '~> 1.0'
+
+
+
+
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
 
