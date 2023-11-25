@@ -1,7 +1,7 @@
 # app/controllers/users_controller.rb
 
 class UsersController < ApplicationController
-  before_action :set_user, only: [:edit, :update, :destroy]
+  before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   def index
     @users = User.all
@@ -18,6 +18,10 @@ class UsersController < ApplicationController
     else
       render :new
     end
+  end
+
+  def show
+
   end
 
   def edit
